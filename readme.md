@@ -1,4 +1,4 @@
-# Drums sound classifier
+# Sound Classifier
 
 
 **disclaimer**
