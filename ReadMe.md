@@ -1,4 +1,7 @@
-# for preparation 
+# for preparation
+
+*this codes require keras, sklearn, pandas, librosa and make sure FFMPEG is in your PATH if you're in Windows*
+*I wanted to make requirements.txt but seems I had some problems with my virtual environment, so I can not do pip freeze*
 
 make sure you have directory structure like this for your audio files
 
