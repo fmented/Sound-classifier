@@ -1,7 +1,13 @@
-# for preparation
+# Drums sound classifier
 
-*this codes require keras, sklearn, pandas, librosa and make sure FFMPEG is in your PATH if you're in Windows*
+
+**disclaimer**
+
+*this codes require keras, sklearn, pandas, librosa and make sure FFMPEG is in your PATH if you're in Windows,*
+
 *I wanted to make requirements.txt but seems I had some problems with my virtual environment, so I can not do pip freeze*
+
+**preparation**
 
 make sure you have directory structure like this for your audio files
 
@@ -53,7 +59,7 @@ make sure you have directory structure like this for your audio files
  ┃ ┣ 📜R Tom 1 Hard 4.wav
  ```
 
-and then in **setting.py** change *main_dir* variable to your root audio files directory like the example above
+and then in **setting.py** change *main_dir* variable to your root audio files directory (absolute path is recommended) like the example above
 and also change *model_name* variable to whatever it should be 
 
 after everything is set run **main.py**
